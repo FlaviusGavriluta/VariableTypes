@@ -9,7 +9,8 @@ class SolutionTest {
     @Test
     public void getFriendsBirthYear() {
         int currentYear = 3126;
+        int age = 8;
         int expected = 3118;
-        assertEquals(expected, GetFriendsBirthYear.getFriendsBirthYear(currentYear));
+        assertEquals(expected, GetFriendsBirthYear.getFriendsBirthYear(currentYear, age));
     }
 }
